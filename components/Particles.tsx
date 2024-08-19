@@ -11,7 +11,7 @@ import {
 import { loadSlim } from "@tsparticles/slim"; // if you are going to use `loadSlim`, install the "@tsparticles/slim" package too.
 // import { loadBasic } from "@tsparticles/basic"; // if you are going to use `loadBasic`, install the "@tsparticles/basic" package too.
 
-const Alien = () => {
+const Particl = () => {
   const [init, setInit] = useState(false);
 
   // this should be run only once per application lifetime
@@ -37,7 +37,7 @@ const Alien = () => {
     () => ({
       background: {
         color: {
-          value: "#0d47a1",
+          value: "black",
         },
       },
       fpsLimit: 120,
@@ -117,4 +117,4 @@ const Alien = () => {
   return <></>;
 };
 
-export default Alien;
+export default Particl;
