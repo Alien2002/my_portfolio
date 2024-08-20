@@ -11,7 +11,7 @@ const Alien = () => {
             <div>
                 <h1 className='text-[35px] md:text-[50px] text-white font-bold'>
 
-                    HI! I&apos;M <span className='text-yellow-400'>KELVIN</span>
+                    HI! I&apos;M <span className='text-yellow-400'>ALIEN</span>
                 </h1> 
                 <AlienEffect />
                 <p className='mt-[2rem] text-[20px] text-[#ffffff92]'>
