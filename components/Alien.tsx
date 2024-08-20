@@ -11,11 +11,11 @@ const Alien = () => {
             <div>
                 <h1 className='text-[35px] md:text-[50px] text-white font-bold'>
 
-                    HI! I'M <span className='text-yellow-400'>KELVIN</span>
+                    HI! I&apos;M <span className='text-yellow-400'>KELVIN</span>
                 </h1> 
                 <AlienEffect />
                 <p className='mt-[2rem] text-[20px] text-[#ffffff92]'>
-                    Hellow, It's Kelvin. I am currently taking my first degree at University of Dar es salaam
+                    Hellow, It&apos;s Kelvin. I am currently taking my first degree at University of Dar es salaam
                     studying bachelor degree of Science in computer science.
                 </p>
                 <div className='mt-[2rem] flex-col space-y-6 sm:space-y-0 sm:flex sm:flex-row items-center sm:space-x-6'>
