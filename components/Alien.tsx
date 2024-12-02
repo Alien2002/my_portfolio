@@ -28,7 +28,9 @@ const Alien = () => {
                     </a>
                 </div>
             </div>
-            <div className='w-[500px] hidden bg-[url("/images/me1.jpg")] relative lg:flex items-center rounded-full h-[500px]'> </div>
+            <div className='w-[500px] hidden relative lg:flex items-center rounded-full h-[500px]'>
+                <img src='/images/me1.jpg' alt='kelvin' className='w-[500px] h-[500px] rounded-full object-cover absolute top-0 left-0'/>
+            </div>
         </div>
     </div>
   )

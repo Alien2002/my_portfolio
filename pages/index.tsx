@@ -1,9 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import Nav from '@/components/Nav'
-import { BeakerIcon } from '@heroicons/react/24/solid'
 import MobileNav from '@/components/MobileNav';
 import Alien from '@/components/Alien';
-import { Particle } from 'tsparticles-engine';
 import About from '@/components/About';
 import { Services } from '@/components/Services';
 import Skills from '@/components/Skills';
